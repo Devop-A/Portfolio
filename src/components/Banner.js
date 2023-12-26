@@ -61,7 +61,7 @@ const Banner = () => {
          viewport={{ once: false, amount: 0.7 }} 
          className='flex max-w-max gap-x-6 items-center mb-12 mx-auto lg:mx-0'> 
           <button className='btn btn-lg'>Contact Me</button>
-          <a href='#' className='text-gradient btn-link'>
+          <a href='https://github.com/Devop-A/portfolio' className='text-gradient btn-link'>
             My Portfolio
           </a>
         </motion.div>

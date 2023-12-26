@@ -8,7 +8,7 @@ const Header = () => {
         <div className='container mx-auto'>
           <div className='flex justify-between items-center'>
             {/* logo */}
-            <a href='#'>
+            <a href='https://teamdevop.dev'>
               {/* Inline styles for max-width and max-height */}
               <img style={{ maxWidth: '120px', maxHeight: '100px' }} src={Logo} alt='Logo'/>
             </a>
