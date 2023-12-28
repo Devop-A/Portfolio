@@ -36,7 +36,7 @@ const Banner = () => {
             2000, 
             'Developer', 
             2000, 
-            'Engineer', 
+            'Creator', 
             2000,
             ]} 
             speed={50}
