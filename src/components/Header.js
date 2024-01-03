@@ -1,6 +1,7 @@
 import React from 'react';
 // images
 import Logo from '../assets/logo.png';
+import { Link } from 'react-scroll';
 
 const Header = () => {
   return (
@@ -13,7 +14,9 @@ const Header = () => {
               <img style={{ maxWidth: '120px', maxHeight: '100px' }} src={Logo} alt='Logo'/>
             </a>
             {/* button */}
-            <button className='btn btn-sm'>Work With Me</button>
+            <Link to='contact' smooth={true} duration={500}>
+              <button className='btn btn-sm'>Work With Me</button>
+            </Link>
           </div>
         </div>
     </header>
